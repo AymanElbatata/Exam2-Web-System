@@ -159,7 +159,7 @@
             });
 
                 $(document).on('click', '.edit-exam', function() {
-            var examId = $(this).data('id');
+                  var examId = $(this).data('id');
 
             $.get('/ManageExams/GetExam/' + examId)
                 .done(function(exam) {

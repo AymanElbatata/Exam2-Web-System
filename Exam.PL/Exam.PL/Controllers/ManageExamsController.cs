@@ -192,10 +192,16 @@ namespace Exam.PL.Controllers
                 try
                 {
                     var entity = Mapper.Map<AnswerTBL>(answer);
+                    if (unitOfWork.AnswerTBLRepository.GetAll().Where(a => a.IsRight == true && a.QuestionTBLId == answer.QuestionTBLId).Count() > 4)
+                        return Json(new
+                        {
+                            success = false,
+                            error = "Maximum 4 Answers!"
+                        });
 
                     if (answer.ID == 0)
                     {
-                        if (unitOfWork.AnswerTBLRepository.GetAll().Where(a=>a.IsRight == true).Count() > 0)
+                        if (unitOfWork.AnswerTBLRepository.GetAll().Where(a=>a.IsRight == true && a.QuestionTBLId ==answer.QuestionTBLId).Any())
                             return Json(new
                             {
                                 success = false,
@@ -205,6 +211,12 @@ namespace Exam.PL.Controllers
                     }
                     else
                     {
+                        if (unitOfWork.AnswerTBLRepository.GetAll().Where(a => a.IsRight == true && a.QuestionTBLId == answer.QuestionTBLId && answer.IsRight == true && a.ID != answer.ID).Any())
+                            return Json(new
+                            {
+                                success = false,
+                                error = "Every Question has only 1 Correct Answer!"
+                            });
                         unitOfWork.AnswerTBLRepository.Update(entity);
                     }
 

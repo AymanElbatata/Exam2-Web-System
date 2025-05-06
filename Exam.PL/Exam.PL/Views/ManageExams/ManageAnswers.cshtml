@@ -81,7 +81,7 @@
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="answerIsRight" name="IsRight" value="true">
-                        <input type="hidden" name="IsCorrect" value="false">
+                        <input type="hidden" name="IsRight" value="false">
                         <label class="form-check-label" for="answerIsRight">Correct Answer</label>
                     </div>
                 </div>
@@ -105,6 +105,7 @@
                 $('#answerForm')[0].reset();
                 $('#answerId').val('0');
                 $('#answerIsRight').prop('checked', false);
+
                 answerModal.show();
             });
 
@@ -114,11 +115,11 @@
     
                 $.get('/ManageExams/GetAnswer/' + answerId)
                     .done(function(answer) {
-            
+                        alert("answer.name" +"|" + answer.isRight);
                         $('#modalTitle').text('Edit Answer');
                         $('#answerId').val(answer.id);
                         $('#answerName').val(answer.name);
-                        $('#answerIsRight').prop('checked', answer.isCorrect || false);
+                        $('#answerIsRight').prop('checked', !!answer.isRight);
                         $('#questionTBLId').val(answer.questionTBLId);
             
                         answerModal.show();
