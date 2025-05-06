@@ -1,0 +1,32 @@
+﻿ @model IEnumerable<Exam.PL.Models.ExamTBLViewModel>
+
+@{
+    ViewData["Title"] = "Admin Panel";
+}
+<div class="p-5 text-center">
+    <h2>Admin Panel</h2>
+
+    <div class="container mt-5">
+        <h2 class="mb-4">لوحة التحكم الإدارية</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card text-white bg-primary mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">إدارة الامتحانات</h5>
+                        <p class="card-text text-white">إضافة وتعديل وحذف الامتحانات.</p>
+                        @Html.ActionLink("الانتقال إلى الامتحانات", "Index", "ManageExams", null, new { @class = "btn btn-light" })
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card text-white bg-success mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">إدارة المستخدمين</h5>
+                        <p class="card-text text-white">عرض وتعديل معلومات المستخدمين.</p>
+                        @Html.ActionLink("الانتقال إلى المستخدمين", "Index", "UserManagement", null, new { @class = "btn btn-light" })
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

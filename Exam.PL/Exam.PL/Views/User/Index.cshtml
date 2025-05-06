@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Exam.PL.Models.UserExamTBLViewModel>
+
+@{
+    ViewData["Title"] = "Completed Exams";
+}
+
+<div class="p-5 text-center">
+    <h2>Completed Exams</h2>
+    <caption>نتائج الامتحانات</caption>
+
+
+
+
+@if(Model != null){
+
+    <div class="table-responsive">
+        <table class="table table-striped table-hover table-bordered">
+            <thead class="table-light">
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.CreationDate)</th>
+                    <th>@Html.DisplayNameFor(model => model.ExamTBL.Name)</th>
+                    <th>@Html.DisplayNameFor(model => model.ExamTBL.SuccessRate)</th>
+                    <th>@Html.DisplayNameFor(model => model.UserRate) %</th>
+                    <th>@Html.DisplayNameFor(model => model.Result) </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.CreationDate)</td>
+                        <td>@Html.DisplayFor(modelItem => item.ExamTBL.Name)</td>
+                        <td>@Html.DisplayFor(modelItem => item.ExamTBL.SuccessRate)</td>
+                        <td>@Html.DisplayFor(modelItem => item.UserRate)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Result)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <div class="p-5 text-center">
+    <h6>You didn't take any Exam !</h6>
+    </div>
+}
+
+</div>

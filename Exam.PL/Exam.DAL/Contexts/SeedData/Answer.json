@@ -1,0 +1,14 @@
+[
+    {
+        "Name": "Answer 1",
+        "IsRight": false
+    },
+    {
+        "Name": "Answer 2",
+        "IsRight": false
+    },
+    {
+        "Name": "Answer 3",
+        "IsRight": true
+    }
+]

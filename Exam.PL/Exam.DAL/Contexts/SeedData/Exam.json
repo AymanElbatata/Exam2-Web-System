@@ -1,0 +1,34 @@
+[
+    {
+        "Name": "Exam 1",
+        "Body": "First Exam",
+        "NumberofQuestions": 3,
+        "SuccessRate": 60,
+        "DurationInMinutes": 3,
+        "IsPublished": true
+    },
+    {
+        "Name": "Exam 2",
+        "Body": "Second Exam",
+        "NumberofQuestions": 4,
+        "SuccessRate": 60,
+        "DurationInMinutes": 4,
+        "IsPublished": true
+    },
+    {
+        "Name": "Exam 3",
+        "Body": "Third Exam",
+        "NumberofQuestions": 5,
+        "SuccessRate": 60,
+        "DurationInMinutes": 5,
+        "IsPublished": true
+    },
+    {
+        "Name": "Exam 4",
+        "Body": "Fourth Exam",
+        "NumberofQuestions": 6,
+        "SuccessRate": 60,
+        "DurationInMinutes": 6,
+        "IsPublished": true
+    }
+] 

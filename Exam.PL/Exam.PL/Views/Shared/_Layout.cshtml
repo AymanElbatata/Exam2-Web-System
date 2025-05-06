@@ -1,0 +1,167 @@
+﻿@using Exam.DAL.BaseEntity
+@using Microsoft.AspNetCore.Identity
+
+@inject  SignInManager<AppUser> signInManager;
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>@ViewData["Title"] - Exam House</title>
+    @*     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Exam.PL.styles.css" asp-append-version="true" />
+ *@
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <link href="~/htmlTemplate/2127_little_fashion/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/htmlTemplate/2127_little_fashion/css/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/htmlTemplate/2127_little_fashion/css/slick.css" />
+
+    <link href="~/htmlTemplate/2127_little_fashion/css/tooplate-little-fashion.css" rel="stylesheet">
+</head>
+<body>
+
+    <section class="preloader">
+        <div class="spinner">
+            <span class="sk-inner-circle"></span>
+        </div>
+    </section>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                <strong><span>Exam</span> House</strong>
+            </a>
+
+            <div class="d-lg-none">
+                <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+                <a href="product-detail.html" class="bi-bag custom-icon"></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                        @if (signInManager.IsSignedIn(User))
+                        {
+                            if (User.IsInRole("Admin"))
+                            {
+                                <a class="nav-link" asp-area="" asp-controller="Admin" asp-action="Index">Panel</a>
+                            }
+                            else
+                            {
+                                <a class="nav-link" asp-area="" asp-controller="Exams" asp-action="Index">Exams</a>
+                                <a class="nav-link" asp-area="" asp-controller="User" asp-action="Index">Scores</a>
+                            }
+                        }
+                    </li>
+
+                </ul>
+
+                <div class="d-none d-lg-block">
+                    @if (signInManager.IsSignedIn(User) )
+                    {
+                        <a asp-area="" asp-controller="Account" asp-action="Logout" class="bi bi-door-closed custom-icon me-3"></a>
+                    }
+                    else
+                    {
+                        <a asp-area="" asp-controller="Account" asp-action="Login" class="bi-person custom-icon me-3"></a>
+                    }
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mt-5">
+        @RenderBody()
+
+    </div>
+
+@*     <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025 - Exam.PL - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer> *@
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-10 me-auto mb-4">
+                    <h4 class="text-white mb-3"><a asp-area="" asp-controller="Home" asp-action="Index">Exam</a> House</h4>
+                    <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2022 <strong>Exam House</strong></p>
+                    <br>
+                    <p class="copyright-text">Developed by <a href="https://www.linkedin.com/in/ayman-elbatata/" target="_blank">Ayman Elbatata</a></p>
+                </div>
+
+                <div class="col-lg-5 col-8">
+                    <h5 class="text-white mb-3">Sitemap</h5>
+
+                    <ul class="footer-menu d-flex flex-wrap">
+                        <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">Story</a></li>
+
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Products</a></li>
+
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Privacy policy</a></li>
+
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">FAQs</a></li>
+
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-4">
+                    <h5 class="text-white mb-3">Social</h5>
+
+                    <ul class="social-icon">
+
+                        <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+
+                        <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
+
+                        <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+
+                        <li><a href="#" class="social-icon-link bi-skype"></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="~/htmlTemplate/2127_little_fashion/js/jquery.min.js"></script>
+    <script src="~/htmlTemplate/2127_little_fashion/js/bootstrap.bundle.min.js"></script>
+    <script src="~/htmlTemplate/2127_little_fashion/js/Headroom.js"></script>
+    <script src="~/htmlTemplate/2127_little_fashion/js/jQuery.headroom.js"></script>
+    <script src="~/htmlTemplate/2127_little_fashion/js/slick.min.js"></script>
+    <script src="~/htmlTemplate/2127_little_fashion/js/custom.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive@4.0.0/dist/jquery.validate.unobtrusive.min.js"></script>
+
+
+@*     <script src="~/lib/jquery/dist/jquery.min.js"></script>
+ *@    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script> 
+     <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+
+

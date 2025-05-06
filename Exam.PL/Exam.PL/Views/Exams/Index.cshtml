@@ -1,0 +1,49 @@
+﻿ @model IEnumerable<Exam.PL.Models.ExamTBLViewModel>
+
+@{
+    ViewData["Title"] = "Available Exams";
+}
+
+<div class="p-5 text-center">
+    <h2>Available Exams</h2>
+</div>
+
+
+<section class="products section-padding">
+    <div class="container">
+        <div class="row">
+
+            @if(Model != null){
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-4 col-12 mb-3">
+                    <div class="product-thumb">
+                            <a asp-area="" asp-controller="Exams" asp-action="StartExam" asp-route-id="@item.ID">
+                                <img src="~/htmlTemplate/2127_little_fashion/images/1895297-2534481756.jpg" class="img-fluid product-image" alt="">
+                        </a>
+
+                        <div class="product-top d-flex">
+                            <span class="product-alert me-auto">New Arrival</span>
+
+                        </div>
+
+                        <div class="product-info d-flex">
+                            <div>
+                                <h5 class="product-title mb-0">
+                                        <a asp-area="" asp-controller="Exams" asp-action="StartExam" asp-route-id="@item.ID" class="product-title-link">@item.Name</a>
+                                </h5>
+
+                                <p class="product-p">@item.Body</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            }
+            }
+
+        </div>
+    </div>
+</section>
+
+

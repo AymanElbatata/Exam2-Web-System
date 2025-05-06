@@ -1,0 +1,66 @@
+﻿@model Exam.PL.DTO.LoginDTO
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+        <main>
+
+            <section class="sign-in-form section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 mx-auto col-12">
+
+                            <h1 class="hero-title text-center mb-5">Sign In</h1>
+
+                            <div class="row">
+                                <div class="col-lg-8 col-11 mx-auto">
+                            <form asp-action="Login" asp-controller="Account" method="post">
+                                @Html.AntiForgeryToken()
+                                @Html.ValidationSummary(true, "", new { @class = "alert alert-danger" })
+
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                                        <div class="form-floating mb-4 p-0">
+                                    <input asp-for="Email" class="form-control" value="Ayman_Elbatata@outlook.com" placeholder="Email address" required>
+@*                                     <input asp-for="Email" class="form-control" value="Ayman.Fathy.Elbatata@gmail.com" placeholder="Email address" required>
+ *@
+                                            <label asp-for="Email">Email address</label>
+                                             @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+
+                                        </div>
+
+                                        <div class="form-floating p-0">
+                                    <input asp-for="Password" value="Aym@9841" class="form-control" placeholder="Password" type="password" required>
+
+                                            <label asp-for="Password">Password</label>
+                                           @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+
+                                        </div>
+                                        <div class="form-floating p-0">
+                                    <input asp-for="RememberMe" class="form-check-input" checked asp-for="RememberMe"> @Html.DisplayNameFor(model => model.RememberMe)
+                                </div>
+
+                                        <button type="submit" class="btn custom-btn form-control mt-4 mb-3">
+                                            Sign in
+                                        </button>
+
+
+                                    </form>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+
+
+
+
+

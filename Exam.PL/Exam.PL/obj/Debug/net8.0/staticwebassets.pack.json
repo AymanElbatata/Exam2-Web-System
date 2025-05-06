@@ -1,0 +1,433 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Exam.PL.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Exam.PL.10oarosowf.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\ABOUT THIS TEMPLATE.txt",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\ABOUT THIS TEMPLATE.txt"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\about.html",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\about.html"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\contact.html",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\contact.html"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\css\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\css\\bootstrap-icons.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\css\\slick.css",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\css\\slick.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\css\\tooplate-little-fashion.css",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\css\\tooplate-little-fashion.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\faq.html",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\faq.html"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\images\\1895297-2534481756.jpg",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\images\\1895297-2534481756.jpg"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\images\\cody-lannom-G95AReIh_Ko-unsplash.jpeg",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\images\\cody-lannom-G95AReIh_Ko-unsplash.jpeg"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\images\\header\\businesspeople-meeting-office-working.jpg",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\images\\header\\businesspeople-meeting-office-working.jpg"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\images\\header\\positive-european-woman-has-break-after-work.jpg",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\images\\header\\positive-european-woman-has-break-after-work.jpg"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\images\\people\\beautiful-woman-face-portrait-brown-background.jpeg",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\images\\people\\beautiful-woman-face-portrait-brown-background.jpeg"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\images\\people\\portrait-british-woman.jpeg",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\images\\people\\portrait-british-woman.jpeg"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\images\\people\\senior-man-wearing-white-face-mask-covid-19-campaign-with-design-space.jpeg",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\images\\people\\senior-man-wearing-white-face-mask-covid-19-campaign-with-design-space.jpeg"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\images\\people\\woman-wearing-mask-face-closeup-covid-19-green-background.jpeg",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\images\\people\\woman-wearing-mask-face-closeup-covid-19-green-background.jpeg"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\images\\pim-chu-z6NZ76_UTDI-unsplash.jpeg",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\images\\pim-chu-z6NZ76_UTDI-unsplash.jpeg"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\images\\product\\anis-m-WnVrO-DvxcE-unsplash.jpeg",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\images\\product\\anis-m-WnVrO-DvxcE-unsplash.jpeg"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\images\\product\\evan-mcdougall-qnh1odlqOmk-unsplash.jpeg",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\images\\product\\evan-mcdougall-qnh1odlqOmk-unsplash.jpeg"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\images\\product\\jordan-nix-CkCUvwMXAac-unsplash.jpeg",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\images\\product\\jordan-nix-CkCUvwMXAac-unsplash.jpeg"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\images\\product\\nature-zen-3Dn1BZZv3m8-unsplash.jpeg",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\images\\product\\nature-zen-3Dn1BZZv3m8-unsplash.jpeg"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\images\\product\\quokkabottles-kFc1_G1GvKA-unsplash.jpeg",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\images\\product\\quokkabottles-kFc1_G1GvKA-unsplash.jpeg"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\images\\product\\team-fredi-8HRKoay8VJE-unsplash.jpeg",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\images\\product\\team-fredi-8HRKoay8VJE-unsplash.jpeg"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\images\\retail-shop-owner-mask-social-distancing-shopping.jpg",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\images\\retail-shop-owner-mask-social-distancing-shopping.jpg"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\images\\servicescape-incorporated-_48JSlVLX6g-unsplash.jpeg",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\images\\servicescape-incorporated-_48JSlVLX6g-unsplash.jpeg"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\images\\slideshow\\medium-shot-business-women-high-five.jpeg",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\images\\slideshow\\medium-shot-business-women-high-five.jpeg"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\images\\slideshow\\team-meeting-renewable-energy-project.jpeg",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\images\\slideshow\\team-meeting-renewable-energy-project.jpeg"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\images\\slideshow\\two-business-partners-working-together-office-computer.jpeg",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\images\\slideshow\\two-business-partners-working-together-office-computer.jpeg"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\index.html",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\index.html"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\js\\Headroom.js",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\js\\Headroom.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\js\\custom.js",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\js\\jQuery.headroom.js",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\js\\jQuery.headroom.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\js\\slick.min.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\product-detail.html",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\product-detail.html"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\products.html",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\products.html"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\sign-in.html",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\sign-in.html"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\htmlTemplate\\2127_little_fashion\\sign-up.html",
+      "PackagePath": "staticwebassets\\htmlTemplate\\2127_little_fashion\\sign-up.html"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Exam.PL.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Exam.PL.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Exam.PL.props",
+      "PackagePath": "build\\Exam.PL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Exam.PL.props",
+      "PackagePath": "buildMultiTargeting\\Exam.PL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Exam.PL.props",
+      "PackagePath": "buildTransitive\\Exam.PL.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
