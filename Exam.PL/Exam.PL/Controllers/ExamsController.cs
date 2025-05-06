@@ -92,13 +92,18 @@ namespace Exam.PL.Controllers
 
             foreach (var item in model.Questions)
             {
-
-                if (AnswerIsRight(Convert.ToInt32(item.SelectedAnswerId)))
-                    RightAnswersCounter++;
+                if (item.SelectedAnswerId != null)
+                {
+                    if (AnswerIsRight(Convert.ToInt32(item.SelectedAnswerId)))
+                        RightAnswersCounter++;
+                }
                 var UserExamDetailsTBLRecord = new UserExamDetailTBL();
                 UserExamDetailsTBLRecord.UserExamTBLId = model.ExamTBLId;
                 UserExamDetailsTBLRecord.QuestionTBLId = item.QuestionTBLId;
-                UserExamDetailsTBLRecord.AnswerTBLId = item.SelectedAnswerId;
+                if (item.SelectedAnswerId != null)
+                {
+                    UserExamDetailsTBLRecord.AnswerTBLId = item.SelectedAnswerId;
+                }
                 UserExamDetailsTBLRecord.CreatedUserID = UserExamTBLRecord.CreatedUserID;
                 UserExamDetailsTBLRecord.UserExamTBLId = SAVEDUserExamTBLRecordID;
                 unitOfWork.UserExamDetailTBLRepository.Add(UserExamDetailsTBLRecord);
