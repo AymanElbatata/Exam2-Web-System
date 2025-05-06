@@ -94,7 +94,7 @@ Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/online-exam-system.git
+git clone https://github.com/AymanElbatata/Exam2-Web-System.git
 Update your connection string in appsettings.json.
 
 Apply database migrations:
