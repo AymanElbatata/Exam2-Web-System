@@ -115,7 +115,6 @@
     
                 $.get('/ManageExams/GetAnswer/' + answerId)
                     .done(function(answer) {
-                        alert("answer.name" +"|" + answer.isRight);
                         $('#modalTitle').text('Edit Answer');
                         $('#answerId').val(answer.id);
                         $('#answerName').val(answer.name);

@@ -201,7 +201,7 @@ namespace Exam.PL.Controllers
 
                     if (answer.ID == 0)
                     {
-                        if (unitOfWork.AnswerTBLRepository.GetAll().Where(a=>a.IsRight == true && a.QuestionTBLId ==answer.QuestionTBLId).Any())
+                        if (unitOfWork.AnswerTBLRepository.GetAll().Where(a=>a.IsRight == true && a.QuestionTBLId ==answer.QuestionTBLId && answer.IsRight == true).Any())
                             return Json(new
                             {
                                 success = false,
