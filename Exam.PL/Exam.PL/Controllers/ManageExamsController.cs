@@ -124,13 +124,11 @@ namespace Exam.PL.Controllers
                     if (CurrentQuestions <  NumberofQuestions)
                     unitOfWork.QuestionTBLRepository.Add(Mapper.Map<QuestionTBL>(exam));
                     else
+                    return Json(new
                     {
-                        //Response.StatusCode = (int)HttpStatusCode.InternalServerError;
-                        //return Json(new
-                        //{success = false, error = "Sorry, Max required Questions Only: " });
-                        return Json(new { success = false, error = "Sorry, Reached Maximum number of Questions" });
-
-                    }
+                        success = false,
+                        errors = new[] { "Maximum number of questions was reached!." }
+                    });
                 }
                 else
                 {
@@ -139,7 +137,14 @@ namespace Exam.PL.Controllers
                 }
                 return Json(new { success = true });
             }
-            return Json(new { success = false, errors = ModelState.Values.SelectMany(v => v.Errors) });
+            return Json(new
+            {
+                success = false,
+                errors = ModelState.Values
+                    .SelectMany(v => v.Errors)
+                    .Select(e => e.ErrorMessage)
+                    .ToList()
+            });
         }
 
         [HttpPost]
@@ -192,7 +197,7 @@ namespace Exam.PL.Controllers
                 try
                 {
                     var entity = Mapper.Map<AnswerTBL>(answer);
-                    if (unitOfWork.AnswerTBLRepository.GetAll().Where(a => a.IsRight == true && a.QuestionTBLId == answer.QuestionTBLId).Count() > 4)
+                    if (unitOfWork.AnswerTBLRepository.GetAll().Where(a => a.IsDeleted == false && a.QuestionTBLId == answer.QuestionTBLId).Count() == 4)
                         return Json(new
                         {
                             success = false,
@@ -201,7 +206,7 @@ namespace Exam.PL.Controllers
 
                     if (answer.ID == 0)
                     {
-                        if (unitOfWork.AnswerTBLRepository.GetAll().Where(a=>a.IsRight == true && a.QuestionTBLId ==answer.QuestionTBLId && answer.IsRight == true).Any())
+                        if (unitOfWork.AnswerTBLRepository.GetAll().Where(a=> a.IsDeleted == false && a.IsRight == true && a.QuestionTBLId ==answer.QuestionTBLId && answer.IsRight == true).Any())
                             return Json(new
                             {
                                 success = false,
@@ -211,7 +216,7 @@ namespace Exam.PL.Controllers
                     }
                     else
                     {
-                        if (unitOfWork.AnswerTBLRepository.GetAll().Where(a => a.IsRight == true && a.QuestionTBLId == answer.QuestionTBLId && answer.IsRight == true && a.ID != answer.ID).Any())
+                        if (unitOfWork.AnswerTBLRepository.GetAll().Where(a => a.IsDeleted == false && a.IsRight == true && a.QuestionTBLId == answer.QuestionTBLId && answer.IsRight == true && a.ID != answer.ID).Any())
                             return Json(new
                             {
                                 success = false,
