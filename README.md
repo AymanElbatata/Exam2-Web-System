@@ -8,7 +8,7 @@ A responsive User Website for taking exams and viewing results.
 Developed by Ayman Elbatata
 
 🔧 Technologies Used
-ASP.NET Core (Blazor / MVC)
+ASP.NET Core (C#/MVC)
 
 Entity Framework Core (with Migrations)
 
