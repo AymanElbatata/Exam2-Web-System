@@ -69,15 +69,15 @@ namespace Exam.PL.Controllers
         {
             if (model == null)
                 return BadRequest();
-            var MissingAnswers = 0;
-            foreach (var item in model.Questions)
-            {
-                if (item.SelectedAnswerId == null)
-                {
-                    ModelState.AddModelError("", "Please Answer All questions!");
-                    return RedirectToAction("StartExam", new { ID = model.ExamTBLId});
-                }
-            }
+            //var MissingAnswers = 0;
+            //foreach (var item in model.Questions)
+            //{
+            //    if (item.SelectedAnswerId == null)
+            //    {
+            //        ModelState.AddModelError("", "Please Answer All questions!");
+            //        return RedirectToAction("StartExam", new { ID = model.ExamTBLId});
+            //    }
+            //}
 
             var UserExamDetailsTBLList = new List<UserExamDetailTBL>();
 

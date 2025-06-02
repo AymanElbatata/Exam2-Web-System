@@ -19,9 +19,13 @@
                 <span class="badge bg-primary mx-2">عدد الأسئلة: @Model.NumberofQuestions</span>
                 <span class="badge bg-success mx-2">نسبة النجاح: @Model.SuccessRate%</span>
                 <span class="badge bg-warning text-dark mx-2">المدة: @Model.DurationInnMinutes دقيقة</span>
+                <span id="countdown" class="badge bg-danger mx-2">الوقت المتبقي: 05:00</span>
+                 <input type="hidden" id="hdnDuration" value="@Model.DurationInnMinutes" />
+
+
             </div>
 
-            <form asp-action="StartExam" method="post">
+            <form id="examForm" asp-action="StartExam" method="post">
                 @Html.AntiForgeryToken()
                 @Html.ValidationSummary(true, "", new { @class = "alert alert-danger" })
 
@@ -70,8 +74,62 @@
     .answer-error {
         animation: fadeIn 0.3s;
     }
+
+    #countdown.warning {
+        animation: pulse 1s infinite;
+    }
+
+    @@keyframes pulse {
+        0% {
+            background-color: #dc3545;
+        }
+
+        50% {
+            background-color: #ff6b6b;
+        }
+
+        100% {
+            background-color: #dc3545;
+        }
+    }
 </style>
 <script>
+     // Timer functionality
+    function startTimer(duration, display) {
+        let timer = duration, minutes, seconds;
+        const interval = setInterval(function () {
+            minutes = parseInt(timer / 60, 10);
+            seconds = parseInt(timer % 60, 10);
+
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            seconds = seconds < 10 ? "0" + seconds : seconds;
+
+            display.textContent = "الوقت المتبقي: " + minutes + ":" + seconds;
+
+            // Add warning class when less than 1 minute remains
+            if (timer <= 60) {
+                display.classList.add('warning');
+            }
+
+            if (--timer < 0) {
+                clearInterval(interval);
+                // Time's up - auto submit
+                document.getElementById('examForm').submit();
+            }
+        }, 1000);
+    }
+
+    window.onload = function () {
+        const durationMinutes = parseInt(document.getElementById('hdnDuration').value);
+        // Set timer for 5 minutes (300 seconds)
+        const fiveMinutes = 60 * durationMinutes,
+            display = document.querySelector('#countdown');
+        startTimer(fiveMinutes, display);
+    };
+
+
+
+
         document.querySelector('form').addEventListener('submit', function(e) {
         // Prevent default submission
         e.preventDefault();
