@@ -8,7 +8,7 @@ A responsive User Website for taking exams and viewing results.
 Developed by Ayman Elbatata
 
 🔧 Technologies Used
-ASP.NET Core (Blazor / MVC)
+ASP.NET Core (C#/MVC)
 
 Entity Framework Core (with Migrations)
 
@@ -112,7 +112,4 @@ dotnet run
 📊 Screenshots
 (Add screenshots here for Admin Panel, Exam UI, and Score Page)
 
-💼 About the Developer
-Ayman Elbatata
-LinkedIn
-Software Developer | Web Solutions | ASP.NET Enthusiast
+📇 Connect with the Developer LinkedIn: Ayman Elbatata https://www.linkedin.com/in/ayman-elbatata/
