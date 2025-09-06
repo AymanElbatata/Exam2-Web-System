@@ -17,77 +17,77 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Exam.PL
 build_property.RootNamespace = Exam.PL
-build_property.ProjectDir = D:\AYM Programming\Prog&Files\Exam.PL\Exam.PL\
+build_property.ProjectDir = C:\Users\ayman\Documents\GitHub\Exam2-Web-System\Exam.PL\Exam.PL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\AYM Programming\Prog&Files\Exam.PL\Exam.PL
+build_property.MSBuildProjectDirectory = C:\Users\ayman\Documents\GitHub\Exam2-Web-System\Exam.PL\Exam.PL
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/AYM Programming/Prog&Files/Exam.PL/Exam.PL/Views/Account/Login.cshtml]
+[C:/Users/ayman/Documents/GitHub/Exam2-Web-System/Exam.PL/Exam.PL/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AYM Programming/Prog&Files/Exam.PL/Exam.PL/Views/Admin/Index.cshtml]
+[C:/Users/ayman/Documents/GitHub/Exam2-Web-System/Exam.PL/Exam.PL/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AYM Programming/Prog&Files/Exam.PL/Exam.PL/Views/Exams/Index.cshtml]
+[C:/Users/ayman/Documents/GitHub/Exam2-Web-System/Exam.PL/Exam.PL/Views/Exams/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AYM Programming/Prog&Files/Exam.PL/Exam.PL/Views/Exams/StartExam.cshtml]
+[C:/Users/ayman/Documents/GitHub/Exam2-Web-System/Exam.PL/Exam.PL/Views/Exams/StartExam.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXNcU3RhcnRFeGFtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AYM Programming/Prog&Files/Exam.PL/Exam.PL/Views/Home/Contact.cshtml]
+[C:/Users/ayman/Documents/GitHub/Exam2-Web-System/Exam.PL/Exam.PL/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AYM Programming/Prog&Files/Exam.PL/Exam.PL/Views/Home/Index.cshtml]
+[C:/Users/ayman/Documents/GitHub/Exam2-Web-System/Exam.PL/Exam.PL/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AYM Programming/Prog&Files/Exam.PL/Exam.PL/Views/ManageExams/Index.cshtml]
+[C:/Users/ayman/Documents/GitHub/Exam2-Web-System/Exam.PL/Exam.PL/Views/ManageExams/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlRXhhbXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AYM Programming/Prog&Files/Exam.PL/Exam.PL/Views/ManageExams/ManageAnswers.cshtml]
+[C:/Users/ayman/Documents/GitHub/Exam2-Web-System/Exam.PL/Exam.PL/Views/ManageExams/ManageAnswers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlRXhhbXNcTWFuYWdlQW5zd2Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AYM Programming/Prog&Files/Exam.PL/Exam.PL/Views/ManageExams/ManageQuestions.cshtml]
+[C:/Users/ayman/Documents/GitHub/Exam2-Web-System/Exam.PL/Exam.PL/Views/ManageExams/ManageQuestions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlRXhhbXNcTWFuYWdlUXVlc3Rpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AYM Programming/Prog&Files/Exam.PL/Exam.PL/Views/Shared/Error.cshtml]
+[C:/Users/ayman/Documents/GitHub/Exam2-Web-System/Exam.PL/Exam.PL/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AYM Programming/Prog&Files/Exam.PL/Exam.PL/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ayman/Documents/GitHub/Exam2-Web-System/Exam.PL/Exam.PL/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AYM Programming/Prog&Files/Exam.PL/Exam.PL/Views/UserManagement/Index.cshtml]
+[C:/Users/ayman/Documents/GitHub/Exam2-Web-System/Exam.PL/Exam.PL/Views/UserManagement/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hbmFnZW1lbnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AYM Programming/Prog&Files/Exam.PL/Exam.PL/Views/User/Index.cshtml]
+[C:/Users/ayman/Documents/GitHub/Exam2-Web-System/Exam.PL/Exam.PL/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AYM Programming/Prog&Files/Exam.PL/Exam.PL/Views/_ViewImports.cshtml]
+[C:/Users/ayman/Documents/GitHub/Exam2-Web-System/Exam.PL/Exam.PL/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AYM Programming/Prog&Files/Exam.PL/Exam.PL/Views/_ViewStart.cshtml]
+[C:/Users/ayman/Documents/GitHub/Exam2-Web-System/Exam.PL/Exam.PL/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AYM Programming/Prog&Files/Exam.PL/Exam.PL/Views/Shared/_Layout.cshtml]
+[C:/Users/ayman/Documents/GitHub/Exam2-Web-System/Exam.PL/Exam.PL/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zenvsmfvsp

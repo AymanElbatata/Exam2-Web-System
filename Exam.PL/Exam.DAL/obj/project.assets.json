@@ -4186,11 +4186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.DAL\\Exam.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.DAL\\Exam.DAL.csproj",
       "projectName": "Exam.DAL",
-      "projectPath": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.DAL\\Exam.DAL.csproj",
+      "projectPath": "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.DAL\\Exam.DAL.csproj",
       "packagesPath": "C:\\Users\\ayman\\.nuget\\packages\\",
-      "outputPath": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.DAL\\obj\\",
+      "outputPath": "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4223,7 +4223,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -4264,7 +4264,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -3805,11 +3805,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.BLL\\Exam.BLL.csproj",
+      "projectUniqueName": "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.BLL\\Exam.BLL.csproj",
       "projectName": "Exam.BLL",
-      "projectPath": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.BLL\\Exam.BLL.csproj",
+      "projectPath": "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.BLL\\Exam.BLL.csproj",
       "packagesPath": "C:\\Users\\ayman\\.nuget\\packages\\",
-      "outputPath": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.BLL\\obj\\",
+      "outputPath": "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3830,8 +3830,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.DAL\\Exam.DAL.csproj": {
-              "projectPath": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.DAL\\Exam.DAL.csproj"
+            "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.DAL\\Exam.DAL.csproj": {
+              "projectPath": "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.DAL\\Exam.DAL.csproj"
             }
           }
         }
@@ -3846,7 +3846,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -3873,7 +3873,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

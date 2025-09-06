@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "623mIGGf6uc=",
+  "dgSpecHash": "MQ2hUaarTnk=",
   "success": true,
-  "projectFilePath": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\Exam.PL.csproj",
+  "projectFilePath": "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.PL\\Exam.PL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayman\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\ayman\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
