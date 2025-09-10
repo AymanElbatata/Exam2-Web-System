@@ -1,0 +1,14 @@
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.DAL\bin\Release\net8.0\Exam.DAL.deps.json
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.DAL\bin\Release\net8.0\Exam.DAL.runtimeconfig.json
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.DAL\bin\Release\net8.0\Exam.DAL.dll
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.DAL\bin\Release\net8.0\Exam.DAL.pdb
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.DAL\obj\Release\net8.0\Exam.DAL.csproj.AssemblyReference.cache
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.DAL\obj\Release\net8.0\Exam.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.DAL\obj\Release\net8.0\Exam.DAL.AssemblyInfoInputs.cache
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.DAL\obj\Release\net8.0\Exam.DAL.AssemblyInfo.cs
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.DAL\obj\Release\net8.0\Exam.DAL.csproj.CoreCompileInputs.cache
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.DAL\obj\Release\net8.0\Exam.DAL.dll
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.DAL\obj\Release\net8.0\refint\Exam.DAL.dll
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.DAL\obj\Release\net8.0\Exam.DAL.pdb
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.DAL\obj\Release\net8.0\Exam.DAL.genruntimeconfig.cache
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.DAL\obj\Release\net8.0\ref\Exam.DAL.dll

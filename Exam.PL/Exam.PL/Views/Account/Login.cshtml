@@ -4,6 +4,8 @@
     ViewData["Title"] = "Login";
 }
 
+
+
         <main>
 
             <section class="sign-in-form section-padding">
@@ -23,11 +25,12 @@
                                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
                                         <div class="form-floating mb-4 p-0">
-                                    <input asp-for="Email" class="form-control" value="Ayman_Elbatata@outlook.com" placeholder="Email address" required>
-@*                                     <input asp-for="Email" class="form-control" value="Ayman.Fathy.Elbatata@gmail.com" placeholder="Email address" required>
- *@
-                                            <label asp-for="Email">Email address</label>
-                                             @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                                       <input id="email" asp-for="Email" class="form-control" value="Ayman.Fathy.Elbatata@gmail.com" placeholder="Email address" required>
+                                        <a href="#" id="changeEmail">Click to use a User Account</a>
+                                    
+
+                                        <label asp-for="Email">Email address</label>
+                                         @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
 
                                         </div>
 
@@ -64,3 +67,10 @@
 
 
 
+<script>
+    // attach event to <a>
+    document.getElementById("changeEmail").addEventListener("click", function(e) {
+      e.preventDefault(); // stop link behavior
+      document.getElementById("email").value = "ayman_elbatata@outlook.com";
+    });
+</script>

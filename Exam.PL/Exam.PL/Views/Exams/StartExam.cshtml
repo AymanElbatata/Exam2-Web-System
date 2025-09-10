@@ -16,10 +16,10 @@
             <h2 class="card-title text-center mb-4">@Model.Name</h2>
             <p class="text-muted text-center">@Model.Body</p>
             <div class="d-flex justify-content-center mb-4">
-                <span class="badge bg-primary mx-2">عدد الأسئلة: @Model.NumberofQuestions</span>
-                <span class="badge bg-success mx-2">نسبة النجاح: @Model.SuccessRate%</span>
-                <span class="badge bg-warning text-dark mx-2">المدة: @Model.DurationInnMinutes دقيقة</span>
-                <span id="countdown" class="badge bg-danger mx-2">الوقت المتبقي: 05:00</span>
+                <span class="badge bg-primary mx-2">Number of Questions: @Model.NumberofQuestions</span>
+                <span class="badge bg-success mx-2">Success Rate: @Model.SuccessRate%</span>
+                <span class="badge bg-warning text-dark mx-2">Duration in minutes: @Model.DurationInnMinutes</span>
+                <span id="countdown" class="badge bg-danger mx-2">Danger Time: 05:00</span>
                  <input type="hidden" id="hdnDuration" value="@Model.DurationInnMinutes" />
 
 
@@ -36,7 +36,7 @@
                     var question = Model.Questions[i];
                     <div class="card mb-4 border-0">
                         <div class="card-header bg-light">
-                            <h5 class="mb-0">السؤال @(i + 1): @question.Title</h5>
+                            <h5 class="mb-0">Question @(i + 1): @question.Title</h5>
                             <input type="hidden" name="Questions[@i].QuestionTBLId" value="@question.QuestionTBLId" />
                         </div>
                         <div class="card-body">
@@ -58,7 +58,7 @@
                 }
 
                 <div class="text-center">
-                    <button type="submit" class="btn btn-success btn-lg px-5">إرسال الإجابات</button>
+                    <button type="submit" class="btn btn-success btn-lg px-5">Submit Answers</button>
                 </div>
             </form>
         </div>
@@ -104,7 +104,7 @@
             minutes = minutes < 10 ? "0" + minutes : minutes;
             seconds = seconds < 10 ? "0" + seconds : seconds;
 
-            display.textContent = "الوقت المتبقي: " + minutes + ":" + seconds;
+            display.textContent = "Remaning Time: " + minutes + ":" + seconds;
 
             // Add warning class when less than 1 minute remains
             if (timer <= 60) {

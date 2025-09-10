@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.PL\\Exam.PL.csproj": {}
+    "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\Exam.PL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.BLL\\Exam.BLL.csproj": {
+    "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.BLL\\Exam.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.BLL\\Exam.BLL.csproj",
+        "projectUniqueName": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.BLL\\Exam.BLL.csproj",
         "projectName": "Exam.BLL",
-        "projectPath": "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.BLL\\Exam.BLL.csproj",
+        "projectPath": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.BLL\\Exam.BLL.csproj",
         "packagesPath": "C:\\Users\\ayman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.BLL\\obj\\",
+        "outputPath": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.DAL\\Exam.DAL.csproj": {
-                "projectPath": "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.DAL\\Exam.DAL.csproj"
+              "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.DAL\\Exam.DAL.csproj": {
+                "projectPath": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.DAL\\Exam.DAL.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.DAL\\Exam.DAL.csproj": {
+    "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.DAL\\Exam.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.DAL\\Exam.DAL.csproj",
+        "projectUniqueName": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.DAL\\Exam.DAL.csproj",
         "projectName": "Exam.DAL",
-        "projectPath": "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.DAL\\Exam.DAL.csproj",
+        "projectPath": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.DAL\\Exam.DAL.csproj",
         "packagesPath": "C:\\Users\\ayman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.DAL\\obj\\",
+        "outputPath": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -164,14 +164,14 @@
         }
       }
     },
-    "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.PL\\Exam.PL.csproj": {
+    "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\Exam.PL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.PL\\Exam.PL.csproj",
+        "projectUniqueName": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\Exam.PL.csproj",
         "projectName": "Exam.PL",
-        "projectPath": "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.PL\\Exam.PL.csproj",
+        "projectPath": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\Exam.PL.csproj",
         "packagesPath": "C:\\Users\\ayman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.PL\\obj\\",
+        "outputPath": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.PL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -192,8 +192,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.BLL\\Exam.BLL.csproj": {
-                "projectPath": "C:\\Users\\ayman\\Documents\\GitHub\\Exam2-Web-System\\Exam.PL\\Exam.BLL\\Exam.BLL.csproj"
+              "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.BLL\\Exam.BLL.csproj": {
+                "projectPath": "D:\\AYM Programming\\Prog&Files\\Exam.PL\\Exam.BLL\\Exam.BLL.csproj"
               }
             }
           }

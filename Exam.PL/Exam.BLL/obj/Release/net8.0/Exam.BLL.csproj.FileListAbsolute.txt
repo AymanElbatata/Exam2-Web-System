@@ -1,0 +1,15 @@
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.BLL\bin\Release\net8.0\Exam.BLL.deps.json
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.BLL\bin\Release\net8.0\Exam.BLL.dll
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.BLL\bin\Release\net8.0\Exam.BLL.pdb
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.BLL\bin\Release\net8.0\Exam.DAL.dll
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.BLL\bin\Release\net8.0\Exam.DAL.pdb
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.BLL\obj\Release\net8.0\Exam.BLL.csproj.AssemblyReference.cache
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.BLL\obj\Release\net8.0\Exam.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.BLL\obj\Release\net8.0\Exam.BLL.AssemblyInfoInputs.cache
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.BLL\obj\Release\net8.0\Exam.BLL.AssemblyInfo.cs
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.BLL\obj\Release\net8.0\Exam.BLL.csproj.CoreCompileInputs.cache
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.BLL\obj\Release\net8.0\Exam.BLL.csproj.Up2Date
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.BLL\obj\Release\net8.0\Exam.BLL.dll
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.BLL\obj\Release\net8.0\refint\Exam.BLL.dll
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.BLL\obj\Release\net8.0\Exam.BLL.pdb
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.BLL\obj\Release\net8.0\ref\Exam.BLL.dll

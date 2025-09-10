@@ -13,19 +13,3 @@ D:\AYM Programming\Prog&Files\Exam.PL\Exam.BLL\obj\Debug\net8.0\Exam.BLL.dll
 D:\AYM Programming\Prog&Files\Exam.PL\Exam.BLL\obj\Debug\net8.0\refint\Exam.BLL.dll
 D:\AYM Programming\Prog&Files\Exam.PL\Exam.BLL\obj\Debug\net8.0\Exam.BLL.pdb
 D:\AYM Programming\Prog&Files\Exam.PL\Exam.BLL\obj\Debug\net8.0\ref\Exam.BLL.dll
-C:\Users\ayman\Documents\GitHub\Exam2-Web-System\Exam.PL\Exam.BLL\bin\Debug\net8.0\Exam.BLL.deps.json
-C:\Users\ayman\Documents\GitHub\Exam2-Web-System\Exam.PL\Exam.BLL\bin\Debug\net8.0\Exam.BLL.dll
-C:\Users\ayman\Documents\GitHub\Exam2-Web-System\Exam.PL\Exam.BLL\bin\Debug\net8.0\Exam.BLL.pdb
-C:\Users\ayman\Documents\GitHub\Exam2-Web-System\Exam.PL\Exam.BLL\bin\Debug\net8.0\Exam.DAL.dll
-C:\Users\ayman\Documents\GitHub\Exam2-Web-System\Exam.PL\Exam.BLL\bin\Debug\net8.0\Exam.DAL.pdb
-C:\Users\ayman\Documents\GitHub\Exam2-Web-System\Exam.PL\Exam.BLL\obj\Debug\net8.0\Exam.BLL.csproj.AssemblyReference.cache
-C:\Users\ayman\Documents\GitHub\Exam2-Web-System\Exam.PL\Exam.BLL\obj\Debug\net8.0\Exam.BLL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ayman\Documents\GitHub\Exam2-Web-System\Exam.PL\Exam.BLL\obj\Debug\net8.0\Exam.BLL.AssemblyInfoInputs.cache
-C:\Users\ayman\Documents\GitHub\Exam2-Web-System\Exam.PL\Exam.BLL\obj\Debug\net8.0\Exam.BLL.AssemblyInfo.cs
-C:\Users\ayman\Documents\GitHub\Exam2-Web-System\Exam.PL\Exam.BLL\obj\Debug\net8.0\Exam.BLL.csproj.CoreCompileInputs.cache
-C:\Users\ayman\Documents\GitHub\Exam2-Web-System\Exam.PL\Exam.BLL\obj\Debug\net8.0\Exam.BLL.sourcelink.json
-C:\Users\ayman\Documents\GitHub\Exam2-Web-System\Exam.PL\Exam.BLL\obj\Debug\net8.0\Exam.BLL.csproj.Up2Date
-C:\Users\ayman\Documents\GitHub\Exam2-Web-System\Exam.PL\Exam.BLL\obj\Debug\net8.0\Exam.BLL.dll
-C:\Users\ayman\Documents\GitHub\Exam2-Web-System\Exam.PL\Exam.BLL\obj\Debug\net8.0\refint\Exam.BLL.dll
-C:\Users\ayman\Documents\GitHub\Exam2-Web-System\Exam.PL\Exam.BLL\obj\Debug\net8.0\Exam.BLL.pdb
-C:\Users\ayman\Documents\GitHub\Exam2-Web-System\Exam.PL\Exam.BLL\obj\Debug\net8.0\ref\Exam.BLL.dll
