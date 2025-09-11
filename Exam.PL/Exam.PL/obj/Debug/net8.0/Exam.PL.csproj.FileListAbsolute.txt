@@ -277,3 +277,4 @@ D:\AYM Programming\Prog&Files\Exam.PL\Exam.PL\obj\Debug\net8.0\rjimswa.dswa.cach
 D:\AYM Programming\Prog&Files\Exam.PL\Exam.PL\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 D:\AYM Programming\Prog&Files\Exam.PL\Exam.PL\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 D:\AYM Programming\Prog&Files\Exam.PL\Exam.PL\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\AYM Programming\Prog&Files\Exam.PL\Exam.PL\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

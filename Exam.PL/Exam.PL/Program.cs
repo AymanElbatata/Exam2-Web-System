@@ -31,6 +31,7 @@ builder.Services.AddScoped<IExamTBLRepository, ExamTBLRepository>();
 builder.Services.AddScoped<IQuestionTBLRepository, QuestionTBLRepository>();
 builder.Services.AddScoped<IUserExamDetailTBLRepository, UserExamDetailTBLRepository>();
 builder.Services.AddScoped<IUserExamTBLRepository, UserExamTBLRepository>();
+builder.Services.AddScoped<IMySPECIALGUID, MySPECIALGUID>();
 //services.AddTransient
 
 

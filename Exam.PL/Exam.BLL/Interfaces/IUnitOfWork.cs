@@ -18,5 +18,7 @@ namespace Exam.BLL.Interfaces
         SignInManager<AppUser> SignInManager { get; }
         RoleManager<AppRole> RoleManager { get; }
         UserManager<AppUser> UserManager { get; }
+        IMySPECIALGUID MySPECIALGUID { get; }
+
     }
 }

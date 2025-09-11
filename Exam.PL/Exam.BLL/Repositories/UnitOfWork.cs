@@ -14,10 +14,12 @@ namespace Exam.BLL.Repositories
         public SignInManager<AppUser> SignInManager { get; }
         public RoleManager<AppRole> RoleManager { get; }
         public UserManager<AppUser> UserManager { get; }
+        public IMySPECIALGUID MySPECIALGUID { get; }
+
         public UnitOfWork(IAnswerTBLRepository AnswerTBLRepository, IExamTBLRepository ExamTBLRepository,
             IQuestionTBLRepository QuestionTBLRepository, IUserExamDetailTBLRepository UserExamDetailTBLRepository,
             IUserExamTBLRepository UserExamTBLRepository, SignInManager<AppUser> SignInManager,
-            RoleManager<AppRole> RoleManager, UserManager<AppUser> UserManager
+            RoleManager<AppRole> RoleManager, UserManager<AppUser> UserManager, IMySPECIALGUID MySPECIALGUID
             )
         {
             this.AnswerTBLRepository = AnswerTBLRepository;
@@ -28,6 +30,7 @@ namespace Exam.BLL.Repositories
             this.SignInManager = SignInManager;
             this.RoleManager = RoleManager;
             this.UserManager = UserManager;
+            this.MySPECIALGUID = MySPECIALGUID;
         }
     }
 }

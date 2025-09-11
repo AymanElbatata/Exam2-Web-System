@@ -13,7 +13,10 @@
                     <div class="row">
 
                         <div class="col-lg-8 mx-auto col-12">
-
+                        @if (ViewBag.Message != null)
+                            {
+                              <p style="color:green" class="mt-1 mb-2">@ViewBag.Message</p>
+                            }
                             <h1 class="hero-title text-center mb-5">Sign In</h1>
 
                             <div class="row">
@@ -48,7 +51,7 @@
                                         <button type="submit" class="btn custom-btn form-control mt-4 mb-3">
                                             Sign in
                                         </button>
-
+                                 <a class="text-decoration-underline mt-2 mb-2" asp-controller="Account" asp-action="Register">Don't Have an account, Register now!</a>
 
                                     </form>
                                 </div>
