@@ -161,14 +161,16 @@
             const usersTable = $('#usersTable').DataTable({
                 responsive: true,
                 ajax: {
-                    url: '/UserManagement/GetAll',
+                    // url: '/UserManagement/GetAll',
+                    url: '@Url.Action("GetAll", "UserManagement")',
                     dataSrc: ''
                 },
                 columns: [
                     {
                         data: null,
                         render: function(data) {
-                            return `${data.firstName} ${data.lastName} ${data.userName}`;
+                            // return `${data.firstName} ${data.lastName} ${data.userName}`;
+                            return `${data.userName}`;
                         }
                     },
                     { data: 'email' },
@@ -204,7 +206,8 @@
 
             // Load roles
             let roles = [];
-            $.get('/UserManagement/GetRoles')
+            // $.get('/UserManagement/GetRoles')
+            $.get('@Url.Action("GetRoles", "UserManagement")')
                 .done(function(data) {
 
                     roles = data;
@@ -232,8 +235,9 @@
                 $('#passwordField').hide();
                 $('#password').removeAttr('required');
 
-                $.get(`/UserManagement/GetUser/${userId}`)
-                    .done(function(user) {
+                // $.get(`/UserManagement/GetUser/${userId}`)
+                $.get('@Url.Action("GetUser", "UserManagement")' + '?id=' + userId)
+                        .done(function(user) {
                         $('#firstName').val(user.firstName);
                         $('#lastName').val(user.lastName);
                         $('#userName').val(user.userName);
@@ -273,7 +277,8 @@
                 e.preventDefault();
 
                 const userId = $('#userId').val();
-                const url = userId ? `/UserManagement/Edit/${userId}` : '/Admin/Create';
+                // const url = userId ? `/UserManagement/Edit/${userId}` : '/Admin/Create';
+                const url = userId ? '@Url.Action("Edit", "UserManagement")' + '?id=' + userId : '@Url.Action("Create", "UserManagement")';
                 const method = 'POST';
 
                 const formData = {
@@ -328,9 +333,12 @@
                 deleteModal.show();
             });
 
+
             $('#confirmDelete').click(function() {
                 $.ajax({
-                    url: `/UserManagement/Delete/${userToDelete}`,
+                    // url: `/UserManagement/Delete/${userToDelete}`,
+                    // url: `/UserManagement/Delete/${userToDelete}`,
+                    url: '@Url.Action("Delete", "UserManagement")' + '?id=' + userToDelete,
                     type: 'POST',
                     success: function(response) {
                         if (response.success) {
